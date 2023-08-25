@@ -1,0 +1,8 @@
+load_dotenv
+flask
+waitress
+llama_index
+sentence_transformers
+unstructured[local-inference]
+pypdf
+docx2txt

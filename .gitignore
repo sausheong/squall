@@ -1,0 +1,9 @@
+.DS_Store
+.env
+.hintrc
+__pycache__
+*.bin
+output.md
+.chroma
+models/*
+data/*
