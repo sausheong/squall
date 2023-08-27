@@ -5,6 +5,7 @@ from llama_index import ServiceContext, StorageContext, load_index_from_storage,
 from llama_index.llms import LlamaCPP
 from llama_index.llms.llama_utils import messages_to_prompt, completion_to_prompt
 
+
 load_dotenv(find_dotenv())
 llm = LlamaCPP(
     model_path=os.getenv('LOCAL_MODEL'),
